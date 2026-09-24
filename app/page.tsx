@@ -1,5 +1,6 @@
 import { experience } from "@/data/experience";
 import { projects } from "@/data/projects";
+import { Navigation } from "@/components/Navigation";
 import styles from "./page.module.css";
 
 const navItems = [
@@ -25,7 +26,7 @@ export default function Home() {
       <header className={styles.hero}>
         <div className={styles.heroTopline}>
           <p>BT / 001</p>
-          <a href="#profile">INDEX +</a>
+          <Navigation items={navItems} />
         </div>
 
         <div className={styles.heroGrid}>
@@ -51,10 +52,6 @@ export default function Home() {
           <a href="#profile">SCROLL ↓</a>
         </div>
       </header>
-
-      <nav className={styles.sectionNav} aria-label="Section navigation">
-        {navItems.map(([number, label, href]) => <a href={href} key={href}>{number} <span>{label}</span></a>)}
-      </nav>
 
       <section className={styles.profile} id="profile" aria-labelledby="profile-heading">
         <SectionHeading number="01" title="PROFILE" />

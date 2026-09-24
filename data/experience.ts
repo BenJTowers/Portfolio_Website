@@ -1,0 +1,4 @@
+export const experience = [
+  { company: "NATURAL RESOURCES CANADA", role: "COASTAL DYNAMICS REMOTE SENSING ANALYST / CO-OP", organization: "GEOLOGICAL SURVEY OF CANADA / PACIFIC GEOSCIENCE CENTRE", period: "2025", location: "SIDNEY, BC", description: "Geospatial processing and coastal remote-sensing work. Detailed public-facing copy will be added once approved project material is available.", technologies: ["PYTHON", "QGIS", "GOOGLE EARTH ENGINE", "REMOTE SENSING"] },
+  { company: "ACD SYSTEMS", role: "SOFTWARE ENGINEERING CO-OP", organization: "DETAILS PENDING VERIFIED RÉSUMÉ CONTENT", period: "2023–2024", location: "VICTORIA, BC", description: "A concise technical summary will replace this placeholder after the relevant experience details are supplied.", technologies: ["TECHNOLOGIES PENDING"] },
+];

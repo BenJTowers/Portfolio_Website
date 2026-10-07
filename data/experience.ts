@@ -1,4 +1,20 @@
 export const experience = [
-  { company: "NATURAL RESOURCES CANADA", role: "COASTAL DYNAMICS REMOTE SENSING ANALYST / CO-OP", organization: "GEOLOGICAL SURVEY OF CANADA / PACIFIC GEOSCIENCE CENTRE", period: "2025", location: "SIDNEY, BC", description: "Geospatial processing and coastal remote-sensing work. Detailed public-facing copy will be added once approved project material is available.", technologies: ["PYTHON", "QGIS", "GOOGLE EARTH ENGINE", "REMOTE SENSING"] },
-  { company: "ACD SYSTEMS", role: "SOFTWARE ENGINEERING CO-OP", organization: "DETAILS PENDING VERIFIED RÉSUMÉ CONTENT", period: "2023–2024", location: "VICTORIA, BC", description: "A concise technical summary will replace this placeholder after the relevant experience details are supplied.", technologies: ["TECHNOLOGIES PENDING"] },
+  {
+    company: "NATURAL RESOURCES CANADA",
+    role: "COASTAL DYNAMICS REMOTE SENSING ASSISTANT",
+    organization: "GEOLOGICAL SURVEY OF CANADA",
+    period: "AUG 2023 - APR 2024",
+    location: "VICTORIA, BC",
+    description: "Software lead on a Geological Survey of Canada project investigating shoreline change. Adapted CoastSat for a national-scale coastal analysis workflow, automating site generation and transect extraction while improving handling of snow reflection, complex shorelines, lakes, and tidal-station data.",
+    technologies: ["PYTHON", "GIS", "COASTSAT", "LANDSAT", "SENTINEL-2", "PLANETSCOPE"],
+  },
+  {
+    company: "ACD SYSTEMS INTERNATIONAL",
+    role: "QUALITY ASSURANCE ANALYST",
+    organization: "PHOTO / VIDEO EDITING PLATFORM",
+    period: "AUG 2023 - APR 2024",
+    location: "VICTORIA, BC",
+    description: "Improved bug detection by 60% through functional and regression testing on a globally distributed photo and video editing platform. Supported the launch of AI-powered image enhancement features with performance testing that reduced processing time by 25%.",
+    technologies: ["FUNCTIONAL TESTING", "REGRESSION TESTING", "PERFORMANCE TESTING", "AGILE"],
+  },
 ];

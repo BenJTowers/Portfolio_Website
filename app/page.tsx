@@ -41,7 +41,7 @@ export default function Home() {
             <p className={styles.specialty}>BACKEND / DATA / SYSTEMS</p>
             <div className={styles.heroLinks}>
               <a href="https://github.com/BenJTowers" target="_blank" rel="noreferrer">GITHUB ↗</a>
-              <span>LINKEDIN / PENDING</span>
+              <a href="https://www.linkedin.com/in/ben-towers/" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
               <span>RÉSUMÉ / PENDING</span>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
         <SectionHeading number="05" title="CONTACT" />
         <div className={styles.contactGrid}>
           <h2 id="contact-heading">LET&apos;S<br />CONNECT.</h2>
-          <div><p>EMAIL / PENDING</p><p>LINKEDIN / PENDING</p><a href="https://github.com/BenJTowers" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
+          <div><a href="mailto:benjtowers@gmail.com">EMAIL ↗</a><a href="https://www.linkedin.com/in/ben-towers/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/BenJTowers" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
         </div>
         <div className={styles.contactFooter}><p>BEN TOWERS</p><p>VAN / 2026</p></div>
       </footer>
